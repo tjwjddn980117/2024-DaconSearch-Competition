@@ -1,0 +1,13 @@
+torch
+tqdm
+einops
+accelerate
+https://pypi.org/simple/ bitsandbytes
+transformers[torch] -U
+
+datasets
+langchain
+langchain_community
+PyMuPDF
+sentence-transformers
+faiss-cpu
