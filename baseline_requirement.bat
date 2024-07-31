@@ -21,7 +21,7 @@ echo start downloading environment for %ENV_NAME%.
 call conda install -y pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 call conda install -y conda-forge::tqdm
 call pip install accelerate
-callpip install -i https://pypi.org/simple/ bitsandbytes
+call pip install -i https://pypi.org/simple/ bitsandbytes
 call pip install transformers[torch] -U
 
 call pip install datasets
