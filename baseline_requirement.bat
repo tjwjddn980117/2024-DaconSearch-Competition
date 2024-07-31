@@ -1,7 +1,7 @@
 rem you should change the root with your own environment path root.
 rem and you could change the ENV_NAME with your one vitual environment.
-set root=C:\Users\Seo\anaconda3
-set ENV_NAME=Search_Baseline
+set root=C:\Users\qkdru\anaconda3
+set ENV_NAME=python310
 
 if not exist "%root%" (
     echo check the root please: %root%
@@ -21,7 +21,7 @@ echo start downloading environment for %ENV_NAME%.
 call conda install -y pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 call conda install -y conda-forge::tqdm
 call pip install accelerate
-callpip install -i https://pypi.org/simple/ bitsandbytes
+call pip install -i https://pypi.org/simple/ bitsandbytes
 call pip install transformers[torch] -U
 
 call pip install datasets
