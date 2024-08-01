@@ -30,6 +30,8 @@ call pip install langchain_community
 call pip install PyMuPDF
 call pip install sentence-transformers
 call pip install faiss-cpu
+call python -m pip install bitsandbytes --prefer-binary --extra-index-url=https://jllllll.github.io/bitsandbytes-windows-webui
+call pip install peft
 
 call conda deactivate
 
