@@ -4,6 +4,7 @@ einops
 accelerate
 https://pypi.org/simple/ bitsandbytes
 transformers[torch] -U
+torchinfo
 
 datasets
 langchain
@@ -11,3 +12,4 @@ langchain_community
 PyMuPDF
 sentence-transformers
 faiss-cpu
+peft
