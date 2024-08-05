@@ -1,6 +1,6 @@
 rem you should change the root with your own environment path root.
 rem and you could change the ENV_NAME with your one vitual environment.
-set root=C:\Users\qkdru\anaconda3
+set root=C:\Users\soomi\anaconda3
 set ENV_NAME=python310
 
 if not exist "%root%" (
