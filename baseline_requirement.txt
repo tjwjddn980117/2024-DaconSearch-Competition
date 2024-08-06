@@ -13,3 +13,5 @@ PyMuPDF
 sentence-transformers
 faiss-cpu
 peft
+trl
+wandb
